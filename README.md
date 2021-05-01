@@ -23,16 +23,9 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-
-
-<p align="center">
-  <img src="logogif.gif" />
- <img src="logotext.png" />
-</p>
-
 # <img src="src/assets/detech.png"/>
-### Réalisé dans le cadre d'un projet en groupe à l'IUT Montpellier-Sète – Département Informatique
-* ** Application web : ** https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech/#/
+### TEST
+* **Application web :** https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech/#/
 * **Participants:** [Adrien Lloret](mailto:adrien.lloret@etu.umontpellier.fr)
 
 
