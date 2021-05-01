@@ -3,10 +3,6 @@
 * **Application web :** https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech/
 * **Participant(s) :** [Adrien Lloret](mailto:adrien.lloret@etu.umontpellier.fr)
 
-
-Pour lancer le projet en local sur votre ordinateur il vous suffit de récupérer le dossier [ici](https://drive.google.com/drive/folders/1zVPusRM1gxtIxP5ijYjcGr6yRmNpjkdk?usp=sharing) et de le placer à la racine d'un de vos Disque, ouvrez ensuite le fichier index.html sur votre navigateur :smile:
-
-
 ## Exécutez ce code dans la console de votre navigateur
 
 ```javascript
@@ -67,6 +63,9 @@ let ceaserCipher = (str, key) => {
 
 </details>
 
+## Installation
+
+Pour lancer le projet en local sur votre ordinateur il vous suffit de récupérer le dossier [ici](https://drive.google.com/drive/folders/1zVPusRM1gxtIxP5ijYjcGr6yRmNpjkdk?usp=sharing) et de le placer à la racine d'un de vos Disque, ouvrez ensuite le fichier index.html sur votre navigateur :smile:
 
 <p>Sinon il suffit de suivre les étapes de commandes ci-dessous : </p>
 
