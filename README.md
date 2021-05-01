@@ -1,8 +1,8 @@
 # Documentation
 ###
-* **Application web :** https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech/#/
+* **Application web :** https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech/#/                                                  <img src="src/assets/detech.png"/>
 * **Participants:** [Adrien Lloret](mailto:adrien.lloret@etu.umontpellier.fr)
-<img src="src/assets/detech.png"/>
+
 
 ###
 ###
