@@ -30,11 +30,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
  <img src="logotext.png" />
 </p>
 
-# Site e-commerce d'achats/reventes de téléphones mobiles
+# <img src="src/assets/detech.png"/>
 ### Réalisé dans le cadre d'un projet en groupe à l'IUT Montpellier-Sète – Département Informatique
 * ** Application web : ** https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech/#/
 * **Participants:** [Adrien Lloret](mailto:adrien.lloret@etu.umontpellier.fr)
-<img src="src/assets/moi.png"/>
+
 
 ## Quelques preview :
 
