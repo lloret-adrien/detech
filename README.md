@@ -4,7 +4,12 @@
 * **Participant(s) :** [Adrien Lloret](mailto:adrien.lloret@etu.umontpellier.fr)
 
 
-Pour lancer le projet en local sur votre ordinateur il vous suffit de récupérer le dossier [ici](https://drive.google.com/drive/folders/1zVPusRM1gxtIxP5ijYjcGr6yRmNpjkdk?usp=sharing) et de le placer à la racine d'un de vos Disque
+Pour lancer le projet en local sur votre ordinateur il vous suffit de récupérer le dossier [ici](https://drive.google.com/drive/folders/1zVPusRM1gxtIxP5ijYjcGr6yRmNpjkdk?usp=sharing) et de le placer à la racine d'un de vos Disque, ouvrez ensuite le fichier index.html sur votre navigateur ;)
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert("Aucune fonctionnalité n'a été détecter, il va falloir se contenter du visuel.");
+```
 
 <p>Sinon il suffit de suivre les étapes de commandes ci-dessous : </p>
 
