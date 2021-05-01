@@ -59,8 +59,8 @@ let ceaserCipher = (str, key) => {
   document.location.href="https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech";
 }
 ```
-* Pour coder une chaine : console.log(ceaserCipher(chaine,code));
-* Pour decoder une chaine : console.log(ceaserCipher(chaine,26-code));
+* Pour coder une chaine : ceaserCipher(chaine,code);
+* Pour decoder une chaine : ceaserCipher(chaine,26-code);
 
 </details>
 
