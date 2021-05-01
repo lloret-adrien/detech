@@ -61,8 +61,8 @@ let ceaserCipher = (str, key) => {
   return decipher;
 }
 ```
-* Pour coder une chaine : console.log(chaine,code);
-* Pour decoder une chaine : console.log(chaine,26-code);
+* Pour coder une chaine : console.log(ceaserCipher(chaine,code));
+* Pour decoder une chaine : console.log(ceaserCipher(chaine,26-code));
 
 </details>
 
