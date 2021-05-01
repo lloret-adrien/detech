@@ -4,7 +4,7 @@
 * **Participant(s) :** [Adrien Lloret](mailto:adrien.lloret@etu.umontpellier.fr)
 
 
-<p>Pour lancer le projet en local sur votre ordinateur il vous suffit de récupérer le dossier</p> [ici](https://drive.google.com/drive/folders/1zVPusRM1gxtIxP5ijYjcGr6yRmNpjkdk?usp=sharing) <p>et de le placer à la racine d'un de vos Disque</p>
+Pour lancer le projet en local sur votre ordinateur il vous suffit de récupérer le dossier [ici](https://drive.google.com/drive/folders/1zVPusRM1gxtIxP5ijYjcGr6yRmNpjkdk?usp=sharing) et de le placer à la racine d'un de vos Disque
 
 <p>Sinon il suffit de suivre les étapes de commandes ci-dessous : </p>
 
