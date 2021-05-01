@@ -23,7 +23,7 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech/#/
+
 
 <p align="center">
   <img src="logogif.gif" />
@@ -32,8 +32,9 @@ https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech/#/
 
 # Site e-commerce d'achats/reventes de téléphones mobiles
 ### Réalisé dans le cadre d'un projet en groupe à l'IUT Montpellier-Sète – Département Informatique
-* **Sujet:** https://romainlebreton.github.io/ProgWeb-CoteServeur/projet.html
-* **Participants:** [Adrien Lloret](mailto:adrien.lloret@etu.umontpellier.fr), [Karim Derbali](mailto:karim.derbali@etu.umontpellier.fr), [Julien Benincasa](mailto:julien.benincasa@etu.umontpellier.fr) 
+* ** Application web : ** https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech/#/
+* **Participants:** [Adrien Lloret](mailto:adrien.lloret@etu.umontpellier.fr)
+<img src="src/assets/moi.png"/>
 
 ## Quelques preview :
 
