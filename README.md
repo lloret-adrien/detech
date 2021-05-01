@@ -11,8 +11,9 @@
   <img src="navig.PNG"/>
 </details>
 
+### Project setup
 <details>
-  <summary>### Project setup</summary>
+  <summary>-</summary>
 
 
 ```
