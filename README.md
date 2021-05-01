@@ -12,7 +12,8 @@
 </details>
 
 <details>
-## Project setup
+  <summary>### Project setup</summary>
+
 
 ```
 npm install
