@@ -6,6 +6,8 @@
 
 Pour lancer le projet en local sur votre ordinateur il vous suffit de récupérer le dossier [ici](https://drive.google.com/drive/folders/1zVPusRM1gxtIxP5ijYjcGr6yRmNpjkdk?usp=sharing) et de le placer à la racine d'un de vos Disque, ouvrez ensuite le fichier index.html sur votre navigateur :smile:
 
+
+
 ```javascript
 alert("Retenez bien ce que vous faîtes");
 var reponse = prompt("Choisis un entier au hasard", "");
@@ -33,7 +35,39 @@ if( reponse == null ){
     }
 }
 ```
-    
+<details>
+    <summary>Fonction pour decoder</summary>
+```javascript
+function cesar(str, amount) {
+  
+  if (amount < 0)
+    return cesar(str, amount + 26);
+  
+  // variable pour stocker le résultat
+  var res = '';
+  // Parcourir chaque caractére
+  for (var i = 0; i < str.length; i++) {
+    // Récupérer le caractére que nous allons ajouter
+    var c = str[i];
+    // Vérifier si c'est une lettre
+    if (c.match(/[a-z]/i)) {
+      // Récupérer son code
+      var code = str.charCodeAt(i);
+      // Lettres majuscules
+      if ((code >= 65) && (code <= 90))
+        c = String.fromCharCode(((code - 65 + amount) % 26) + 65);
+      // Lettres minuscules
+      else if ((code >= 97) && (code <= 122))
+        c = String.fromCharCode(((code - 97 + amount) % 26) + 97);
+    }
+    // Ajouter le caractére
+    res += c;
+  }
+  // Résultat
+  return res;
+};
+```
+</details>
 
 
 <p>Sinon il suffit de suivre les étapes de commandes ci-dessous : </p>
