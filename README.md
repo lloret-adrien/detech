@@ -1,5 +1,5 @@
 # <img src="src/assets/detech.png"/>
-### TEST
+###
 * **Application web :** https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech/#/
 * **Participants:** [Adrien Lloret](mailto:adrien.lloret@etu.umontpellier.fr)
 
