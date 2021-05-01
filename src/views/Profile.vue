@@ -3,14 +3,17 @@
     <div class="profile-header">
       <div class="profile-pics">
         <div class="banner">
-          <img src="banniere.png" alt="Bannière du profil" />
+          <img
+            :src="require('../assets/banniere.png')"
+            alt="Bannière du profil"
+          />
         </div>
         <div class="avatar">
           <v-avatar
             rounded
             :size="102"
             username="Adrien Lloret"
-            src="moi.png"
+            :src="require('../assets/moi.png')"
           />
           <!-- svg camera -->
           <svg
@@ -126,11 +129,11 @@
           </div>
           <div class="stats">
             <div class="followers">
-              <img src="followers.png" alt="followers" />
+              <img :src="require('../assets/followers.png')" alt="followers" />
               <h1>16,6K</h1>
             </div>
             <div class="points">
-              <img src="points.png" alt="followers" />
+              <img :src="require('../assets/points.png')" alt="followers" />
               <h1>300</h1>
             </div>
           </div>
@@ -356,19 +359,16 @@ export default {
   }
 }
 .vue-grid-item {
-  // background-color: antiquewhite;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 15px;
   &.vue-grid-placeholder {
-    background-color: grey;
+    background-color: grey !important;
   }
 }
 
 .vue-grid-layout {
   width: 835px;
-  // padding: 15px;
-  // margin: 0 50px 0 50px;
 }
 </style>

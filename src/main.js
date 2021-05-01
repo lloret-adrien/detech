@@ -6,9 +6,9 @@ import store from "./store";
 Vue.config.productionTip = false;
 
 //menu contectuel de base (click droit) désactivé
-window.oncontextmenu = function() {
+/*window.oncontextmenu = function() {
   return false;
-};
+};*/
 
 new Vue({
   router,

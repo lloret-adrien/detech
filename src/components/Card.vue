@@ -1,7 +1,7 @@
 <template>
   <div class="case">
     <div class="pic">
-      <img v-if="image != ''" :src="image" alt="image of post" />
+      <img v-if="image != ''" :src="urlPics(image)" alt="image of post" />
       <!-- faire une méthode pour récupérer l'image du thème par défault -->
       <img
         v-else
@@ -62,6 +62,12 @@ export default {
     image: {
       type: String,
       required: true,
+    },
+  },
+  methods: {
+    urlPics(url) {
+      const img = require("../assets" + url);
+      return img;
     },
   },
 };

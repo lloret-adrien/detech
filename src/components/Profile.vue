@@ -51,7 +51,7 @@
         background-color="black"
         rounded
         username="Adrien Lloret"
-        src="moi.png"
+        :src="require('../assets/moi.png')"
       />
       <div class="name-and-role">
         <p id="name">Adrien</p>
