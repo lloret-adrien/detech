@@ -1,10 +1,9 @@
-# Documentation
+# Documentation Detech
 
 * **Application web :** https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech/
 * **Participant(s) :** [Adrien Lloret](mailto:adrien.lloret@etu.umontpellier.fr)
 
-<p>Le header change en fonction du rôle du client (connecté/visiteur/admin)</p>
-
+<p>Pour lancer Detech en local sur votre ordinateur il vous suffit de suivre les étapes des commandes ci-dessous : </p>
 
 ### Clonage du projet
 
