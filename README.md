@@ -37,6 +37,7 @@ if( reponse == null ){
 ```
 <details>
     <summary>Fonction pour decoder</summary>
+
 ```javascript
 function cesar(str, amount) {
   
