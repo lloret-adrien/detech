@@ -9,7 +9,6 @@ Pour lancer le projet en local sur votre ordinateur il vous suffit de récupére
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert("Aucune fonctionnalité n'a été détecter, il va falloir se contenter du visuel.");
-:tiger:
 ```
 
 <p>Sinon il suffit de suivre les étapes de commandes ci-dessous : </p>
