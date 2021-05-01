@@ -11,7 +11,9 @@
   <img src="navig.PNG"/>
 </details>
 
-## Project setup
+<details>
+<summary>## Project setup</summary>
+
 ```
 npm install
 ```
@@ -33,3 +35,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+</details>
