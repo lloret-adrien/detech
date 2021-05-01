@@ -1,9 +1,10 @@
-# <img src="src/assets/detech.png"/>
+# Documentation <img src="src/assets/detech.png"/>
 ###
 * **Application web :** https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech/#/
 * **Participants:** [Adrien Lloret](mailto:adrien.lloret@etu.umontpellier.fr)
 
-## Quelques preview :
+###
+###
 
 <details>
   <summary>Accueil</summary>
@@ -36,8 +37,6 @@
   <summary>Page détails d'un produit</summary>
   <img src="details.PNG"/>
 </details>
-
-# detech
 
 ## Project setup
 ```
