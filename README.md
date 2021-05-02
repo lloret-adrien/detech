@@ -23,7 +23,7 @@ if( reponse == null ){
           var reponse = prompt("Soustrait le nombre choisis au départ", "");
           double -= firstNumber;
           if(double == reponse) {
-            alert("Decode la phrase à l'aide du code obtenu : GAIATK LUTIZOUTTGROZ KT GKZ KJKZKIZK XO RB GLGRRUO XY KIUTZKTZK XJ ABOYAKR");
+            alert("Decode la phrase à l'aide du code obtenu : GAIATK LUTIZOUTTGROZK TG KZK JKZKIZKX, OR BG LGRRUOX YK IUTZKTZKX JA BOYAKR.");
           }else {
             alert("Il semblerait y avoir une erreur de calcul");
           }
