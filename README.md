@@ -23,7 +23,7 @@ if( reponse == null ){
           var reponse = prompt("Soustrait le nombre choisis au départ", "");
           double -= firstNumber;
           if(double == reponse) {
-            alert("Decode la phrase à l'aide du code obtenu : GAIATK LUTIZOUTTGROZK TG KZK JKZKIZKX, OR BG LGRRUOX YK IUTZKTZKX JA BOYAKR.");
+            alert("Decode la phrase à l'aide du code obtenu : GAIATK LUTIZOUTTGROZK TG KZK JKZKIZKX, OR BG LGRRUOX YK IUTZKTZKX JA BOYAKR");
           }else {
             alert("Il semblerait y avoir une erreur de calcul");
           }
@@ -56,6 +56,7 @@ let ceaserCipher = (str, key) => {
     }
   }
   decipher = decipher.replace(/4/g, " ");
+  decipher = decipher.replace(/@/g, ", ");
   alert(decipher);
   document.location.href="https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech";
 }
