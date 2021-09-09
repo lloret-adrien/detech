@@ -1,74 +1,11 @@
 # Documentation Detech
 
-* **Application web :** https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech/
+* **Application web :** https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech/ (lien indisponible)
 * **Participant(s) :** [Adrien Lloret](mailto:adrien.lloret@etu.umontpellier.fr)
-
-## Exécutez ce code dans la console de votre navigateur
-
-```javascript
-alert("Retenez bien ce que vous faîtes");
-var reponse = prompt("Choisis un entier au hasard", "");
-if( reponse == null ){
-    alert("Relancer le programme");
-} else {
-    let firstNumber = reponse;
-    var reponse = prompt("Multiplie par 2 le nombre", "");
-    if(firstNumber*2 == reponse) {
-      var reponse = prompt("Ajoute 12", "");
-      let double = firstNumber*2 + 12;
-      if(double == reponse) {
-        var reponse = prompt("Divise par 2", "");
-        double = double / 2;
-        if(double == reponse) {
-          var reponse = prompt("Soustrait le nombre choisis au départ", "");
-          double -= firstNumber;
-          if(double == reponse) {
-            alert("Decode la phrase à l'aide du code obtenu : GAIATK LUTIZOUTTGROZK TG KZK JKZKIZKX, OR BG LGRRUOX YK IUTZKTZKX JA BOYAKR");
-          }else {
-            alert("Il semblerait y avoir une erreur de calcul");
-          }
-        }
-      }
-    }
-}
-```
-<details>
-    <summary>Fonctions Cesar</summary>
-
-```javascript
-//check if letter is uppercase
-function isUpperCase(str) {
-    return str === str.toUpperCase();
-}
-//decipher the string
-let ceaserCipher = (str, key) => {
-  let decipher = '';
-  
-  //decipher each letter
-  for(let i = 0; i < str.length; i++){
-    
-    //if letter is uppercase then add uppercase letters
-    if(isUpperCase(str[i])){
-      decipher += String.fromCharCode((str.charCodeAt(i) + key - 65) % 26 + 65);
-    }else{
-      //else add lowercase letters
-      decipher += String.fromCharCode((str.charCodeAt(i) + key - 97) % 26 + 97);
-    }
-  }
-  decipher = decipher.replace(/4/g, " ");
-  decipher = decipher.replace(/@/g, ", ");
-  alert(decipher);
-  document.location.href="https://webinfo.iutmontp.univ-montp2.fr/~lloreta/detech";
-}
-```
-* Pour coder une chaine : ceaserCipher(chaine,code);
-* Pour decoder une chaine : ceaserCipher(chaine,26-code);
-
-</details>
 
 ## Installation
 
-Pour lancer le projet en local sur votre ordinateur il vous suffit de récupérer le dossier [ici](https://drive.google.com/drive/folders/1zVPusRM1gxtIxP5ijYjcGr6yRmNpjkdk?usp=sharing) et de le placer à la racine d'un de vos Disque, ouvrez ensuite le fichier index.html sur votre navigateur :smile:
+Pour lancer le projet en local sur votre ordinateur il vous suffit de récupérer le dossier [ici](https://drive.google.com/drive/folders/1zVPusRM1gxtIxP5ijYjcGr6yRmNpjkdk?usp=sharing) et de le placer à la racine d'un de vos Disque, ouvrez ensuite le fichier index.html sur votre navigateur
 
 <p>Sinon il suffit de suivre les étapes de commandes ci-dessous : </p>
 
