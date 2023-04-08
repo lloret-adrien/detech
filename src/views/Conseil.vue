@@ -24,9 +24,9 @@
 </template>
 
 <script>
-import TopBar from "@/components/TopBar.vue";
-import FilterBar from "@/components/FilterBar.vue";
-import Avis from "@/components/Avis.vue";
+import TopBar from "@/components/TopBar.vue"
+import FilterBar from "@/components/FilterBar.vue"
+import Avis from "@/components/Avis.vue"
 
 export default {
   components: {
@@ -34,5 +34,5 @@ export default {
     Avis,
     FilterBar,
   },
-};
+}
 </script>

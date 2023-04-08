@@ -55,7 +55,7 @@
 </template>
 
 <script>
-import { vAvatar } from "@amaury-tobias/v-avatar";
+import { vAvatar } from "@amaury-tobias/v-avatar"
 
 export default {
   name: "Avis",
@@ -88,7 +88,7 @@ export default {
       required: true,
     },
   },
-};
+}
 </script>
 
 <style lang="scss">

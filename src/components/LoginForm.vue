@@ -69,7 +69,7 @@
 <script>
 export default {
   name: "LoginForm",
-};
+}
 </script>
 
 <style lang="scss">

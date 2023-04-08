@@ -296,7 +296,7 @@ export default {
       elt.appendChild(span);
     },
   },
-};
+}
 </script>
 
 <style lang="scss">

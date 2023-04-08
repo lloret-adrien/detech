@@ -1,13 +1,13 @@
 <script>
-import SearchBar from "./components/SearchBar.vue";
-// import LoginForm from "./components/LoginForm.vue";
+import SearchBar from "@/components/SearchBar.vue"
+// import LoginForm from "./components/LoginForm.vue"
 
 export default {
   components: {
     SearchBar,
     // LoginForm,
   },
-};
+}
 </script>
 
 <template>

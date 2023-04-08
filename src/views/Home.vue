@@ -24,9 +24,9 @@
 </template>
 
 <script>
-import TopBar from "@/components/TopBar.vue";
-import FilterBar from "@/components/FilterBar.vue";
-import Debat from "@/components/Debat.vue";
+import TopBar from "@/components/TopBar.vue"
+import FilterBar from "@/components/FilterBar.vue"
+import Debat from "@/components/Debat.vue"
 
 export default {
   name: "Home",
@@ -35,5 +35,5 @@ export default {
     FilterBar,
     Debat,
   },
-};
+}
 </script>

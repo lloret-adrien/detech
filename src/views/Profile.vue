@@ -176,9 +176,9 @@
 </template>
 
 <script>
-import { vAvatar } from "@amaury-tobias/v-avatar";
-import Card from "@/components/Card.vue";
-import { GridLayout, GridItem } from "vue-grid-layout";
+import { vAvatar } from "@amaury-tobias/v-avatar"
+import Card from "@/components/Card.vue"
+import { GridLayout, GridItem } from "vue-grid-layout"
 
 export default {
   name: "Avis",
@@ -257,7 +257,7 @@ export default {
       textarea.removeAttribute("disabled");
     },
   },
-};
+}
 </script>
 
 <style lang="scss">

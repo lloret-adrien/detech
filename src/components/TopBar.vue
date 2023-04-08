@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import TitlePage from "@/components/TitlePage.vue";
-import Profile from "@/components/Profile.vue";
+import TitlePage from "@/components/TitlePage.vue"
+import Profile from "@/components/Profile.vue"
 
 export default {
   name: "TopBar",
@@ -25,7 +25,7 @@ export default {
       required: true,
     },
   },
-};
+}
 </script>
 
 <style lang="scss">

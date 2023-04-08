@@ -27,9 +27,9 @@
 
 <script>
 // import CKEditor from "ckeditor4-vue";
-import TopBar from "@/components/TopBar.vue";
-import Card from "@/components/Card.vue";
-import FilterBar from "@/components/FilterBar.vue";
+import TopBar from "@/components/TopBar.vue"
+import Card from "@/components/Card.vue"
+import FilterBar from "@/components/FilterBar.vue"
 
 export default {
   components: {
@@ -144,5 +144,5 @@ export default {
       ],
     };
   },
-};
+}
 </script>

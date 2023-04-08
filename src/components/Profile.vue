@@ -62,14 +62,14 @@
 </template>
 
 <script>
-import { vAvatar } from "@amaury-tobias/v-avatar";
+import { vAvatar } from "@amaury-tobias/v-avatar"
 
 export default {
   name: "Profile",
   components: {
     vAvatar,
   },
-};
+}
 </script>
 
 <style lang="scss">

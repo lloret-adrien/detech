@@ -1,7 +1,7 @@
 <template>
   <div class="case">
     <div class="pic">
-      <img v-if="image != ''" :src="urlPics(image)" alt="image of post" />
+      <img v-if="image != ''" :src="'/src/assets' + image" alt="image of post" />
       <!-- faire une méthode pour récupérer l'image du thème par défault -->
       <img
         v-else
@@ -24,14 +24,14 @@
           <!-- src="https://media-exp1.licdn.com/dms/image/C4D03AQE7Pg6o7wWSag/profile-displayphoto-shrink_200_200/0/1611838794408?e=1619654400&v=beta&t=5CG-FBKxvVobd8cTSzN7PxPR3_zZhE3Mc_RN_alF3AU" -->
           <p>{{ username }}</p>
         </div>
-        <span>Read more 🡢</span>
+        <span>Read more →</span>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import { vAvatar } from "@amaury-tobias/v-avatar";
+import { vAvatar } from "@amaury-tobias/v-avatar"
 
 export default {
   name: "Card",
@@ -63,14 +63,8 @@ export default {
       type: String,
       required: true,
     },
-  },
-  methods: {
-    urlPics(url) {
-      const img = require("../assets" + url);
-      return img;
-    },
-  },
-};
+  }
+}
 </script>
 
 <style lang="scss">

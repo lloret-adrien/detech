@@ -51,8 +51,8 @@
 </template>
 
 <script>
-import { vAvatar } from "@amaury-tobias/v-avatar";
-import VuePoll from "vue-poll";
+import { vAvatar } from "@amaury-tobias/v-avatar"
+import VuePoll from "vue-poll"
 
 export default {
   name: "Debat",
@@ -131,7 +131,7 @@ export default {
       console.log("You voted " + obj.value + "!");
     },
   },
-};
+}
 </script>
 
 <style lang="scss">
