@@ -1,6 +1,6 @@
 # Documentation Detech
 
-* **Application web :** https://lloret-adrien.github.io/detech.github.io/
+* **Application web :** unavailable
 * **Participant(s) :** [Adrien Lloret](mailto:adrien.lloret@etu.umontpellier.fr)
 
 ## Installation
